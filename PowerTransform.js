@@ -16,7 +16,7 @@ PowerTransform.prototype._transform = function (n, encoding, cb) {
   function calculate () {
     self.push(n, encoding);
     self.push(n * n, encoding);
-    self.push(Math.sqrt(n), encoding);
+    self.push(Math.sqrt(Math.abs(n)), encoding);
     cb();
   }
 

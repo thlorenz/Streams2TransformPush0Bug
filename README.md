@@ -19,3 +19,13 @@ Then `node index`. You'll see numbers printed to the console.
 Now change the `startValue` in the example to `0` and `node index` again.
 
 Nothing gets printed anymore.
+
+Now change the `startValue` in the example to `-2` and `node index` again.
+
+At that point it prints:
+
+```
+:-2::4::1::-1::1::1:
+```
+
+showing clearly that it stopped right when the `0` was pushed.
